@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border1"
+    android:orientation="vertical"
+    tools:context=".MapActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="544dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="351dp"
+            android:layout_height="497dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/border2" />
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="341dp"
+            android:layout_height="466dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="45dp"
+            tools:context=".MapsActivity"></fragment>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="244dp"
+            android:layout_height="139dp"
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TV"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Select DronePoint" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/spinner_background"
+                android:entries="@array/dropzone" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/custom_button"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="전송" />
+    </LinearLayout>
+
+</LinearLayout>

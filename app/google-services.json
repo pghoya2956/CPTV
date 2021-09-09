@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "370109736367",
+    "firebase_url": "https://navigationdrone.firebaseio.com",
+    "project_id": "navigationdrone",
+    "storage_bucket": "navigationdrone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370109736367:android:75d8e139cd20d6e7dd3b5a",
+        "android_client_info": {
+          "package_name": "com.example.dronenetwork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370109736367-3iq7llutdscki7hfbtv4k0rn98evnvvk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2Jt42S1yYB7POBQ3IzLgUcRd-YoUo4uA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "370109736367-3iq7llutdscki7hfbtv4k0rn98evnvvk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
